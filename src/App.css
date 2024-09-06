@@ -1,0 +1,92 @@
+.App{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table{
+  background-color: black;
+  width: 600px;
+  height: 700px;
+  border-radius: 20px;
+}
+.main_head{
+  color: rgb(16, 50, 50);
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.card{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.details{
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name{
+  display: flex;
+  flex-direction: column;
+}
+span{
+  margin: 3px;
+}
+.buttondiv{
+  display: flex;
+  justify-content: space-around;
+  width: 170px;
+}
+button{
+   border-radius: 10px;
+   border: 1px solid black;
+   padding: 8px;
+}
+.fsearch{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.search {
+  width: 250px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.search:focus{
+  outline: none;
+}
+
+.data{
+  background-color: white;
+  height: 80%;
+  border-radius: 10px;
+  margin: 40px 10px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input{
+  width: 300px;
+  height: 30px;
+}
+
+.textarea{
+  height: 90px;
+  width: 300px;
+}
